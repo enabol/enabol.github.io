@@ -44,7 +44,7 @@ body{
 
 .barlink{
 	text-decoration: none;
-			color:#23E9DA;
+			color:#00BDDA;
 }
 .menu{
 	height: 100%;
@@ -63,7 +63,7 @@ body{
 }
 
 .pages li{
-	color: #23E9DA;
+	color: #00BDDA;
 	padding-right: 20px;
 	padding-left: 20px;
 	font-family: dubai;
@@ -122,6 +122,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	color: #00427B;
+
 
 
 }
