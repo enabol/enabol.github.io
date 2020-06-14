@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: helvetica;
+	src: url("../assets/fonts/helvetica/HelveticaNeue Thin.ttf")
+}
+
+@font-face{
+	font-family: dubai;
+	src: url("../assets/fonts/dubai/DUBAI-REGULAR.TTF")
+}
+
+@font-face{
+	font-family: twcen;
+	src: url("../assets/fonts/Tw Cen MT/TCCM____.TTF")
+}
+
+body{
+	margin: 0;
+}
+
+.bar{
+	background-color: #202020;
+	height: 107px;		
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.logo{
+	color:#23E9DA;
+	font-family: dubai;
+	font-size: 70px;
+	padding-top: 10px;
+	padding-left: 20px;
+
+
+}
+
+.barlink{
+	text-decoration: none;
+			color:#23E9DA;
+}
+.menu{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+
+}
+.pages{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.pages li{
+	color: #23E9DA;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: dubai;
+	font-size: 25px;
+	list-style: none;
+	padding-bottom: 0px;
+
+}
+
+
+
+#intro{
+	font-family: twcen;
+	color: #079C7E;
+	font-size: 50px;
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.tile_wrapper{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.banner{
+
+	width: 60%;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+
+}
+.screenshot{
+
+	height: inherit;
+}
+
+.screenshot img{
+	height: inherit;
+
+}
+
+.promotext{
+	font-family: twcen;
+	font-size: 42px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #00427B;
+
+
+}
+
+.promotext p{
+			text-align: center;
+}
+
+
+
+
+
+
+#badgewrapper{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.badges{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 33%;
+	margin-right: 33%;
+	padding-bottom: 70px;
+
+
+}
+
+.ios_badge{
+
+	height: 60px;
+	padding-right: 30px;
+
+}
+.gp_badge{
+
+	height: 60px;
+	padding-left: 30px;
+
+}
+
+.wrapper{
+	text-align: center;
+
+}
+
+hr{
+	width: 70%;
+}
+
+
+
+
+#description{
+	font-family: helvetica;
+	width: 60%
+}
+
+.network{
+	padding: 5px;
+	margin: 0% 3%;
+	border-radius: 30px;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+
+}
+
+.network img{
+	height: 70%;
+	width: 70%;
+	
+
+}
+
+.network:hover {
+	transform: scale(1.3,1.3) translate(0px,-20px) ;
+	transition: all 0.2s ease;
+	box-shadow: 0px 10px 30px 5px #aaaaaa;
+	
+}
+
+
+
+	
+	
+
+
+
