@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Contact Us</title>
-<link rel="stylesheet" type="text/css" href="css/home.css">
-<link rel="icon" href="assets/icon.svg"> 
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="icon" href="assets/icon.svg"> 
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>	
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154698217-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -20,27 +21,16 @@
 	
 
 <body>
-	<div id="fb-root"></div>
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
 	
-		<div style=" background-color: black; align-items: center; flex-direction: column; display: flex">
-		<img style="padding: 30px; width: 30%" src="assets/full-logo.svg"  >
-	</div>
-	<div style="background-color: black; display: flex; justify-content: center">
-		
-		<!--div class="logo"><a class="barlink" href="index.html">enabol</a></div-->
+	<div id="nav-placeholder"></div>
+	
+	<script>
+	$(function(){
+		$("#nav-placeholder").load("bars/nav.html");
+	})
+	</script>
 
 
-		<div class="menu">
-			<ul class="pages">
-				<li><a class="barlink" href="index.html">Home</a></li>
-				<li><a class="barlink" href="trackmywarranty.html">Warranty Tracker</a></li>
-				<li><a class="barlink" href="index.html">Contact </a></li>
-			</ul>
-
-		</div>
-
-	</div>
 	<div style=" height: 70vh; display: flex; flex: column; align-items: center; justify-content: center;overflow:auto " >
 		<div style="width: 60%; border: 1px  solid #aaaaaa; padding: 30px; margin: 30px; box-shadow: 10px 10px 50px 3px #aaaaaa;">
 

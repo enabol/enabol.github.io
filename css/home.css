@@ -20,58 +20,6 @@ body{
 	margin: 0;
 }
 
-.bar{
-	background-color: #202020;
-	height: 107px;		
-	padding: 0px;
-	margin: 0px;
-	border: none;
-	flex-direction: row;
-	display: flex;
-	justify-content: space-between;
-
-
-}
-.logo{
-	color:#23E9DA;
-	font-family: dubai;
-	font-size: 70px;
-	padding-top: 10px;
-	padding-left: 20px;
-
-
-}
-
-.barlink{
-	text-decoration: none;
-			color:#00BDDA;
-}
-.menu{
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-
-
-}
-.pages{
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-
-
-}
-
-.pages li{
-	color: #00BDDA;
-	padding-right: 20px;
-	padding-left: 20px;
-	font-family: dubai;
-	font-size: 25px;
-	list-style: none;
-	padding-bottom: 0px;
-
-}
 
 
 
