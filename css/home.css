@@ -198,6 +198,16 @@ hr{
 	
 }
 
+#description p{
+	font-size: 20px;
+}
+
+#fb_subcontainer{
+	width: 60%; 
+	height: 500px;
+	
+}
+
 
 
 
@@ -226,7 +236,13 @@ hr{
 	}
 	
 	.banner{
-		width:none;
+		width:initial;
+		flex-direction: column;
+		height: initial;
+		
+	}
+	.screenshot img {
+		width: 100%;
 	}
 	
 	#intro{
@@ -237,10 +253,14 @@ hr{
 		font-size: 30px;
 	}
 	
+	.promotext p{
+		margin: 10px;
+	}
+	
 	.badges{
 		
-		margin-left: none;
-		margin-right: none;
+		margin-left: initial;
+		margin-right: initial;
 	}
 	
 	.ios_badge{
@@ -254,6 +274,15 @@ hr{
 		padding-left: 10px;
 		
 	}
+	
+	#description{
+		width:80%;
+	}
+	
+	#fb_subcontainer{
+		width:80%;
+	}
+	
 	
 	
 	
