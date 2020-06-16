@@ -130,9 +130,15 @@ hr{
 	width: 60%
 }
 
+#links{
+	display: flex; 
+	justify-content: center; 
+	margin-top: 50px;
+}
+
 .network{
 	padding: 5px;
-	margin: 0% 3%;
+	margin: 3% 3%;
 	border-radius: 30px;
 	height: 80px;
 	width: 80px;
@@ -155,6 +161,123 @@ hr{
 	box-shadow: 0px 10px 30px 5px #aaaaaa;
 	
 }
+
+
+
+
+
+.messageboxcontainer{
+	
+	//height: 83vh; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+	overflow: auto
+}
+
+
+.messagebox{
+	
+	width: 60%; 
+	padding: 30px; margin: 30px; 
+	box-shadow: 10px 10px 50px 3px #aaaaaa; 
+	word-break: break-word;
+	
+}
+
+.messagebox h1{
+	
+	font-family: helvetica; font-size: 50px
+	
+}
+
+.messagebox p{
+	
+	font-family: helvetica; font-size: 30px; text-indent: 30px;
+	
+}
+
+
+
+
+
+@media screen and (max-width: 750px){
+	
+	.messageboxcontainer{
+		
+		height: none;
+		
+		
+	}
+	.messagebox{
+		width: none;
+		padding: 20px;
+		margin: 20px;
+		box-shadow: 0 0 20px 0 #aaaaaa;
+	}
+	
+	.messagebox h1{
+		font-size: 30px;
+	}
+	
+	.messagebox p{
+		font-size: 20px;
+	}
+	
+	.banner{
+		width:none;
+	}
+	
+	#intro{
+		font-size: 30px;
+	}
+	
+	.promotext{
+		font-size: 30px;
+	}
+	
+	.badges{
+		
+		margin-left: none;
+		margin-right: none;
+	}
+	
+	.ios_badge{
+		height: 50px;
+		padding-right: 10px;
+		
+	}
+	
+	.gp_badge{
+		height: 50px;
+		padding-left: 10px;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+@media screen and (min-height: 500px){
+	
+	.messageboxcontainer{
+		height: 83vh;
+	}
+	
+	
+}
+
+
 
 
 
