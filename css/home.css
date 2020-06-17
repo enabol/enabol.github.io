@@ -208,11 +208,23 @@ hr{
 	
 }
 
+#marvelogo{
+	padding: 30px 15px;
+	//height: 75vh;
+	width: 80vh;
+}
+
+.comingsoon{
+	
+	font-family: helvetica; 
+	padding: 10px 0px;
+}
 
 
 
 
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 850px){
 	
 	.messageboxcontainer{
 		
@@ -281,6 +293,10 @@ hr{
 	
 	#fb_subcontainer{
 		width:80%;
+	}
+	
+	.comingsoon{
+		font-size: 30px;
 	}
 	
 	
