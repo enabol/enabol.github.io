@@ -209,14 +209,16 @@ hr{
 }
 
 #marvelogo{
-	padding: 30px 15px;
-	width: 80vh;
+	padding: 15px 15px 15px 15px;
+	width: 60%;
+	height: 65vh;
 }
 
 .comingsoon{
 	
 	font-family: helvetica; 
 	padding: 10px 0px;
+	font-size: 40px;
 }
 
 
@@ -298,11 +300,7 @@ hr{
 		font-size: 30px;
 	}
 	
-	#marvelogo{
-		width: 60vh;
-		height: 60vh;
 
-	}
 	
 	
 	
