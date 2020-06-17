@@ -210,7 +210,6 @@ hr{
 
 #marvelogo{
 	padding: 30px 15px;
-	//height: 75vh;
 	width: 80vh;
 }
 
@@ -297,6 +296,12 @@ hr{
 	
 	.comingsoon{
 		font-size: 30px;
+	}
+	
+	#marvelogo{
+		
+		height: 60vh;
+
 	}
 	
 	
