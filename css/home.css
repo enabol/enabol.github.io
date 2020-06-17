@@ -299,7 +299,7 @@ hr{
 	}
 	
 	#marvelogo{
-		
+		width: 60vh;
 		height: 60vh;
 
 	}
@@ -322,6 +322,7 @@ hr{
 	
 	.messageboxcontainer{
 		height: 83vh;
+		
 	}
 	
 	
