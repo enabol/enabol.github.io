@@ -221,31 +221,6 @@ hr{
 	font-size: 40px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 0px solid black;
-  background-image: none;	
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: dimgrey;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: dimgrey;
-}
-
-
 
 
 
@@ -351,15 +326,15 @@ hr{
 }
 
 @media screen and (max-width: 900px){
-	.display-1{
+	#sk-line1{
 		font-size: 60px;
 	}
 	
-	.display-4{
+	#sk-line2{
 		font-size: 30px;
 	}
 	
-	.h4{
+	#sk-line3{
 		
 		font-size: 20px;
 	}
