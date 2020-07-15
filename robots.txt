@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /bars/bs-nav.html
+Noindex: /bars/bs-nav.html
+Disallow: /skills-analysis/thankyou.html
+Noindex: /skills-analysis/thankyou.html
