@@ -1,9 +1,8 @@
 https://enabol.com/
-https://enabol.com/index.html
-https://enabol.com/trackmywarranty.html
-https://enabol.com/trackmywarranty/privacypolicy.html
-https://enabol.com/marve.html
-https://enabol.com/skills-analysis/index.html
-https://enabol.com/skills-analysis/purchase.html
-https://enabol.com/skills-analysis/extract-skills.html
-https://enabol.com/contact.html
+https://enabol.com/trackmywarranty
+https://enabol.com/trackmywarranty/privacypolicy
+https://enabol.com/marve
+https://enabol.com/skills-analysis
+https://enabol.com/skills-analysis/purchase
+https://enabol.com/skills-analysis/extract-skills
+https://enabol.com/contact
